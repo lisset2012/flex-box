@@ -1,0 +1,178 @@
+body{
+    padding: 0;
+    margin: 0;
+    /* overflow-x: hidden; */
+}
+
+header{
+    max-width: 100vw;
+    min-height: 45vh;
+    background-color: grey;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /*afecta a los elementos en fila*/
+    align-items: center; /*afecta a los elementos en columna*/
+}
+
+.title_cont{
+    background-color: dimgrey;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+}
+
+.title{
+    min-width: 30vw;
+    min-height: 15vh;
+    border: 1px solid black;
+    margin: 2vw 2vh 2vw 2vh;
+    background-color: lightgray;
+    text-align: center;
+    align-self: center;
+   
+}
+
+.sub_title{
+    min-width: 20vw;
+    min-height: 10vh;
+    border: 1px solid black;
+    margin: 2vw 2vh 2vw 2vh;
+    background-color: lightgray;
+    
+    text-align: center;
+    align-self: center;
+}
+
+.details_cont{
+    background-color: rgb(192, 177, 177);
+    display: flex;
+    min-width: 100vw;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.item{
+    background-color: lightgrey;
+    border: 2px solid black;
+    min-width: 12vw;
+    min-height: 6vh;
+}
+
+nav{
+    display:flex;
+    background-color: lightgrey;
+    border: 1px solid black;
+    min-width: 100vw;
+    min-height: 6vh;
+    justify-content: center;
+}
+
+nav span{
+    background-color: lightgrey;
+    border: 1px solid black;
+    min-width: 12vw;
+    min-height: 6vh;
+    text-align: center;
+}
+
+/* main{
+    max-width: 100vw;
+    min-height: 55vh;
+    
+    display: flex;
+    flex-direction: column;
+    
+} */
+
+.q_cont{
+    border-top:2px solid black;
+    border-bottom: solid black;
+    min-width: 100vw;
+    max-width: 100vw;
+    min-height: 45vh;
+    max-width: 45vh;
+    display: flex;
+    flex-direction: row;
+}
+
+.q{
+    display: flex;
+    border-right: 1px solid black;
+    flex:1;
+    justify-content: center;
+    align-items: center;
+}
+
+.a{
+    display: flex;
+    flex-direction: column;
+    flex: 3.5;
+}
+
+.box{
+    min-width: 100px;
+    max-width: 100px;
+    min-height: 100px;
+    max-height: 100px;
+}
+
+.clr_1{
+    border: 1px solid blue;
+}
+
+.clr_2{
+    border: 1px solid red;
+}
+
+.clr_3{
+    border: 1px solid green;
+}
+
+/* Q1 */
+#a1{
+    flex-direction: row;
+    justify-content: center;
+}
+
+/* Q2 */
+#a2{
+    /* display: flex; */
+    flex-direction: column;
+    /* justify-content: center; afecta a los elementos en fila */
+    /* align-items: center; */
+}
+
+.a_cont{
+    min-width: 77vw;
+    max-width: 77vw;
+    min-height: 22.5vh;
+    max-height: 22.5vh;
+}
+
+#a2div1{
+    /* background: lightblue; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+#a2div2{
+    background: lightblue;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+/* Q3 */
+#a3{
+    min-width: 77vw;
+    max-width: 77vw;
+    /* min-height: 22.5vh;
+    max-height: 22.5vh; */
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: flex-end;
+
+}
