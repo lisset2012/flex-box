@@ -157,7 +157,7 @@ nav span{
 }
 
 #a2div2{
-    background: lightblue;
+    
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -165,14 +165,59 @@ nav span{
 }
 
 /* Q3 */
+#box2, #box3{
+    margin-left: 50px;
+}
 #a3{
     min-width: 77vw;
     max-width: 77vw;
     /* min-height: 22.5vh;
     max-height: 22.5vh; */
+    
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
     align-items: flex-end;
+}
+
+/* Q4 */
+#a4{
+    min-width: 77vw;
+    max-width: 77vw;
+    /* min-height: 22.5vh;
+    max-height: 22.5vh; */
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+/* #box4{
+    display: flex;
+    align-items: center;
+    
+} */
+#box5{
+    display: flex;
+    justify-content: center;
+    align-self: center;
+}
+#box6{
+    display: flex;
+   
+    align-self: flex-end;
+}
+
+/* Q5 */
+#a5{
+    min-width: 77vw;
+    max-width: 77vw;
+    /* min-height: 22.5vh;
+    max-height: 22.5vh; */
+    
+    display: flex;
+    flex-direction: row;
+   
 
 }
